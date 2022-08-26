@@ -71,7 +71,7 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var x = 6, y = 9; 
-  if (x == y) {
+  if (x === y) {
     return true;
   }
   return false;
@@ -82,7 +82,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var str1 = "Hola", str2 = "Pepe"; 
-  if (x.length == y.length) {
+  if (str1.length === str2.length) {
     return true;
   }
   return false;
@@ -122,7 +122,7 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var num = 21;
-  if (num%2 == 0) {
+  if (num%2 === 0) {
     return true;
   }
   return false;
@@ -133,7 +133,7 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var num = 21;
-  if (num%2 == 1) {
+  if (num%2 === 1) {
     return true;
   }
   return false; 
@@ -151,7 +151,7 @@ function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   var num = 4;
-  return Math.pow(num,3); 
+  return num * num * num; 
 }
 
 function elevar(num, exponent) {
@@ -238,7 +238,7 @@ function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
   var lado = 5;
-  Math.retornarPerimetro(lado);
+  return lado * 4;
 }
 
 
@@ -246,7 +246,7 @@ function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
 var base = 5, altura = 6;
-return Math.areaDelTriangulo(base,altura);
+return (base * altura)/2;
 }
 
 
