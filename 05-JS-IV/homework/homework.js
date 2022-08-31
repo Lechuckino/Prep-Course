@@ -124,7 +124,6 @@ function pasarUsuarioAPremium (usuarios) {
   return usuarios;
 }
 
-
 function sumarLikesDeUsuario (usuario) {
   // "usuario" tiene una propiedad llamada "posts" que es un array
   // "posts" es un array de objetos "post"
